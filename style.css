@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: white;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo img{
+    height: 40px;
+    margin-left: 100px;
+}
+.menu-bar{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    position: relative;
+}
+.menu-bar .menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu-bar .menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu-bar > .sign-up{
+    padding: 5px 10px;
+    /* background: rgb(66, 199, 39); */
+    background-image: url(Assets/green-turquoise-teal-blue-abstract-260nw-2276508905.webp) ;
+    background-size: cover;
+    color: white;
+    height: 40px;
+    width: 150px;
+
+    border-image: url(Assets/green-turquoise-teal-blue-abstract-260nw-2276508905.webp);
+    
+    border-radius: 20px;
+}
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 30px;
+    gap: 2px;
+    
+    /* margin-top: 5px; */
+    display: none;
+}
+.hamburger > span{
+    width: 100%;
+    height: 5px;
+    background: red;
+    display: none;
+}
+.first-section{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.first-section .next-gen{
+    font-weight: 350;
+    font-size: 50px;
+    color: rgb(12, 12, 80);
+    line-height: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.first-section .first-section-text{
+    width: 400px;
+    margin:150px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.first-section .first-section-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    /* background-color:  rgb(66, 199, 39);
+    border-color: rgb(66, 199, 39) ; */
+    background-image: url(Assets/green-turquoise-teal-blue-abstract-260nw-2276508905.webp) ;
+    background-size:cover;
+    color: white;
+    margin-top: 20px;
+border: none;}
+    
+    .general-text{
+        color: lightslategray;
+        font-size: 18px;
+        width: 430px;
+}
+.image-holder{
+   
+ 
+
+
+ background-size: cover;
+ margin-top: -630px;
+}
+.background-firstsection{
+    width: 550px;
+    height: 800px;
+
+
+}
+.big-intro{
+    width: 1300px;
+    height: 1000px;
+    margin-left: 450px;
+
+}
+.image-mockups{
+    width: 700px;
+    margin-top: -720px;
+    margin-left: 450px;
+}
+.second-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(226, 224, 224);
+    margin-top: -110vh;
+    padding: 150px;
+}
+.second-section .second-section-first-text{
+    width: 500px;
+}
+ .second-section-header{
+    font-weight: 500;
+    font-size: 30px;
+    color:rgb(12, 12, 80) ;
+    
+}
+.general-text2{
+    color:lightslategray;
+}
+.flex-items{
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.flex-1{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.au{
+    color: rgb(12, 12, 80) ;
+    font-weight: 500;
+}
+.third-section{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.falter-1{
+    width:200px ;
+    height: 200px;
+}
+.third-section-header{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: 400;
+    width: 300px;
+    padding-left: -100px;
+    
+    font-size: 30px;
+}
+.flex-2{
+    width: 200px;
+    margin-top: 150px;
+    margin-left: -320px;
+    margin-right: 340px
+    
+}
+.yt{
+    color: lightslategray;
+}
+.yr{
+    color: rgb(12, 12, 80) ;
+    font-weight: 400;
+    font-size: 20px;
+    width: 240px;
+}
+.yr :hover{
+    color:aqua;
+    cursor: pointer;
+}
+.end-form-container{
+    height: 400px;
+    background-color: rgb(8, 8, 41);
+    color: white;
+}
+.end-form-container p{
+    font-size: 17px;
+}
+.end-form{
+    display: flex;
+    padding: 100px;
+    padding-top: 130px;
+    gap: 50px;
+}
+.end-form button{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(Assets/green-turquoise-teal-blue-abstract-260nw-2276508905.webp) ;
+    background-size: cover;
+    cursor: pointer;
+
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: none;
+
+}
+.easy{
+    margin-left: 170px;
+    width: 300px;
+    color: lightslategray;
+}
+.five-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.five-content input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons span{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+.first{
+    width: 300px;
+}
+/* responsiveness */
+@media (max-width: 992px){
+    .navigation{
+        max-width: 100%;
+    }
+    .menu-bar{
+        flex-direction: column;
+        background: whitesmoke;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        gap: 5px;
+        padding: 15px 0;
+        display: none;
+
+    }
+    .sign-up{
+        width: 80px;
+    }
+    .menu-bar .menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-bar a{
+        color: white;
+    }
+    .hamburger{
+        display: block;
+        background-color: brown;
+    }
+    .first-section{
+        padding: 10px;
+        width: 100%;
+
+    }
+/* .first-section-text{
+       
+} */
+.general-text{
+    margin-left: -120px;
+}
+.next-gen{
+    margin-left: -120px;
+    width: 400px;
+}
+.first-section-button{
+    margin-left:-120px ;
+}
+.big-intro{
+    width: 700px;
+    margin-left: 270px;
+}
+.image-mockups{
+    width: 500px;
+    height: 800px;
+    margin-left: 400px;overflow: visible;
+}
+.second-section-header{
+    width: 400px;
+    margin-left: -80px;
+}
+.general-text2{
+    width: 400px;
+    margin-left: -80px;
+}
+.flex-items{
+    margin-left: -80px;
+}
+ .third-section-header{
+    margin-left: -40px;
+ }
+ .flex-2{
+    width: 180px;
+    gap: 20px;
+    /* margin-right: 300px; */
+ }
+ .falter-1{
+    width: 180px;
+    height: 150px;
+ }
+ .yt{
+    font-size: 12px;
+ }
+ .yr{
+    width: 180px;
+ }
+ }  
+ @media (max-width:768px){
+    .navigation{
+        max-width: 100%;
+    }
+    .menu-bar{
+        flex-direction: column;
+        background: whitesmoke;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        gap: 5px;
+        padding: 15px 0;
+        display: none;
+
+    }
+    .sign-up{
+        width: 80px;
+    }
+    .menu-bar .menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-bar a{
+        color: white;
+    }
+    .hamburger{
+        display: block;
+        background-color: brown;
+    }
+    .first-section{
+        padding: 10px;
+        width: 100%;
+
+    }
+/* .first-section-text{
+       
+} */
+.general-text{
+    margin-left: -150px;
+    width: 330px;
+}
+.next-gen{
+    margin-left: -150px;
+    width: 330px;
+    font-size: 25px;
+}
+.first-section-button{
+    margin-left:-150px ;
+}
+.big-intro{
+    width: 700px;
+    margin-left: 130px;
+}
+.image-mockups{
+    width: 400px;
+    height: 800px;
+    margin-left: 270px;
+    overflow: visible;
+    
+}
+.second-section-header{
+    width: 400px;
+    margin-left: -150px;
+}
+.general-text2{
+    width: 400px;
+    margin-left: -150px;
+}
+.flex-items{
+    margin-left: -110px;
+    margin-top: -20px ;
+gap: 50px;
+width: 350px ;
+
+}
+ .third-section-header{
+    margin-left: -110px;
+ }
+ .flex-2{
+    width: 150px;
+    gap: 10px;
+    margin-right: 230px;
+    margin-left: -205px;
+ }
+ .falter-1{
+    width: 150px;
+    height: 150px;
+ }
+ .yt{
+    font-size: 12px;
+ }
+ .yr{
+    width: 180px;
+ }
+ }
+ @media (max-width:400px){
+    .navigation{
+        max-width: 100%;
+    }
+    .menu-bar{
+        flex-direction: column;
+        background: whitesmoke;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        gap: 5px;
+        padding: 15px 0;
+        display: none;
+
+    }
+    .sign-up{
+        width: 80px;
+    }
+    .menu-bar .menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-bar a{
+        color: white;
+    }
+    .hamburger{
+        display: block;
+        background-color: brown;
+    }
+    .first-section{
+        padding: 10px;
+        width: 100%;
+        
+
+    }
+/* .first-section-text{
+;  
+} */
+.general-text{
+    margin-top:100px ;
+    margin-bottom: -200px;
+    margin-left: -110px;
+    width: 300px;
+}
+.next-gen{
+    margin-left:-110px;
+    width: 330px;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    
+}
+.first-section-button{
+    margin-left:-50px ;
+    margin-top: -300px;
+}
+.big-intro{
+    width: 700px;
+    margin-left:-320px;
+    margin-top: -70px;
+    height: 400px;
+}
+.image-mockups{
+    width: 300px;
+    height: 500px;
+    margin-left: -110px;
+    margin-top: -800px;
+    overflow: visible;
+    
+}
+.second-section-header{
+    width: 400px;
+    margin-left: -150px;
+}
+.general-text2{
+    width: 400px;
+    margin-left: -150px;
+}
+.flex-items{
+    margin-left: -110px;
+    margin-top: -20px ;
+gap: 50px;
+width: 350px ;
+
+}
+ .third-section-header{
+    margin-left: -110px;
+ }
+ .flex-2{
+    width: 150px;
+    gap: 10px;
+    margin-right: 230px;
+    margin-left: -205px;
+ }
+ .falter-1{
+    width: 150px;
+    height: 150px;
+ }
+ .yt{
+    font-size: 12px;
+ }
+ .yr{
+    width: 180px;
+ }
+ }
+
+     
